@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Colorful World</h1>
+        <p>Experience the beauty of vibrant colors!</p>
+    </header>
+
+    <section class="content">
+        <div class="card red">
+            <h2>Red</h2>
+            <p>Red is a powerful color that can symbolize love, energy, and passion.</p>
+        </div>
+        <div class="card blue">
+            <h2>Blue</h2>
+            <p>Blue represents calmness, tranquility, and trust.</p>
+        </div>
+        <div class="card green">
+            <h2>Green</h2>
+            <p>Green is often associated with nature, growth, and harmony.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Colorful Website. All Rights Reserved.</p>
+    </footer>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAuBJgb2HwcNfU1PwOyLY2vS6mdTk9nGGU",
+      authDomain: "colour-4801e.firebaseapp.com",
+      projectId: "colour-4801e",
+      storageBucket: "colour-4801e.firebasestorage.app",
+      messagingSenderId: "256811554774",
+      appId: "1:256811554774:web:a51ade8bc4bbb2bd343677",
+      measurementId: "G-RVJJWD4G6H"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</html>

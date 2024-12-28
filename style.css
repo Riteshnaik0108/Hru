@@ -1,0 +1,77 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and text styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    color: #4c0bd8;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Content section */
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    color: #ab1313;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+}
+
+/* Different background colors for each card */
+.red {
+    background-color: #f44336;
+}
+
+.blue {
+    background-color: #2196f3;
+}
+
+.green {
+    background-color: #4caf50;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: #333;
+}
